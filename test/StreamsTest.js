@@ -14,7 +14,7 @@ module.exports =
             Unit.Test("given Nil should return true")(
                 Assertion.isTrue(Stream.Nil.isEmpty())
             ),
-            Unit.Test("given stream of number should return false")(
+            Unit.Test("given stream of numbers should return false")(
                 Assertion.isTrue(!streamOfNumbers(0).isEmpty())
             )
         ])
